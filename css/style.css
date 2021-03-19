@@ -62,11 +62,12 @@ main{
     position: relative;
     background-color: cadetblue;
     /* background-image: url(/img/banner.jpg); */
-    height: 400px;
+    height: 40%;
     margin: 1rem 0;
     background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
     url(/img/banner.jpg);
     background-position: center;
+    border-radius: 6px;
 }
 
 /* Hero textbox */
@@ -86,8 +87,6 @@ main{
     font-size: 1.5rem;
 }
 
-
-
 /* Leadership section */
 
 .leadership_section{
@@ -96,9 +95,10 @@ main{
 }
 
 .section_title{
-    height: 80px;
+    /* height: 80px; */
     background-color: darkgoldenrod;
     margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 .col_left, .col_right{
