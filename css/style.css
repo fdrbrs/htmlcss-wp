@@ -1,0 +1,93 @@
+/* Common Rules */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+clearfix::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+
+/* Body */
+
+body{
+    width: 90%;
+    margin: 0 auto;
+    background-color: grey;
+}
+
+/* Site Header */
+
+#site_header{
+    background-color: limegreen;
+    height: 100px;
+}
+
+/* Main */
+
+main{
+    background-color: coral;
+    height: 1000px;
+}
+
+.hero_image{
+    background-color: cadetblue;
+    height: 400px;
+    margin: 1rem 0;
+}
+
+.leadership_section{
+    background-color: gold;
+    height: 400px;
+}
+
+.section_title{
+    height: 80px;
+    background-color: darkgoldenrod;
+    margin-bottom: 5%;
+}
+
+.col_left, .col_right{
+    float: left;
+    width: 20%;
+    background-color: darkorange;
+    height: 100%;
+}
+
+.col_main {
+    float: left;
+    width: 50%;
+    background-color: indigo;
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 5% ;
+}
+
+/* Site Footer */
+
+footer{
+    margin-top: 1rem;
+    background-color: deeppink;
+    height: 80px;
+}
+
+/* Nav Bar */
+
+#site_header > nav > ul {
+    list-style: no ne;
+}
+
+nav.main_menu > ul > li {
+    display: inline;
+}
+
+nav.main_menu > ul > li > a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: lightcyan;
+    padding-right: 10px;
+}
