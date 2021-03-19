@@ -24,7 +24,6 @@ body{
 
 #site_header{
     background-color: limegreen;
-    /* height: 100px; */
 }
 
 header > img{
@@ -57,11 +56,30 @@ main{
     height: 1000px;
 }
 
+/* Hero image */
+
 .hero_image{
+    position: relative;
     background-color: cadetblue;
+    /* background-image: url(/img/banner.jpg); */
     height: 400px;
     margin: 1rem 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/img/banner.jpg);
+    background-position: center;
 }
+
+/* Hero textbox */
+
+.hero_textbox{
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+}
+
+/* Leadership section */
 
 .leadership_section{
     background-color: gold;
