@@ -24,7 +24,30 @@ body{
 
 #site_header{
     background-color: limegreen;
-    height: 100px;
+    /* height: 100px; */
+}
+
+header > img{
+    width: 15%;
+    height: auto;
+    margin-bottom: 1.5rem;
+}
+
+/* Nav Bar */
+
+#site_header > nav > ul {
+    list-style: no ne;
+}
+
+nav.main_menu > ul > li {
+    display: inline;
+}
+
+nav.main_menu > ul > li > a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: gray;
+    padding-right: 10px;
 }
 
 /* Main */
@@ -75,19 +98,3 @@ footer{
     height: 80px;
 }
 
-/* Nav Bar */
-
-#site_header > nav > ul {
-    list-style: no ne;
-}
-
-nav.main_menu > ul > li {
-    display: inline;
-}
-
-nav.main_menu > ul > li > a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: lightcyan;
-    padding-right: 10px;
-}
