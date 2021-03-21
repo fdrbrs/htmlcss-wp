@@ -55,7 +55,7 @@ nav.main_menu > ul > li > a {
 
 main{
     /* background-color: coral; */
-    height: 1000px;
+    height: 1500px;
 }
 
 /* Hero image */
@@ -154,12 +154,20 @@ h4{
     margin: 1rem 0;
 }
 
+.text_title  {
+    margin: 1rem 0;
+    font-weight: 400;
+}
+
+.text {
+    color: gray;
+}
 
 /* Site Footer */
 
 footer{
     margin-top: 1rem;
-    /* background-color: deeppink; */
+    background-color: deeppink;
     height: 80px;
     text-align: center;
 }
