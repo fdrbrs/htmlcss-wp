@@ -17,13 +17,13 @@ clearfix::after{
 body{
     width: 90%;
     margin: 0 auto;
-    background-color: grey;
+    /* background-color: grey; */
 }
 
 /* Site Header */
 
 #site_header{
-    background-color: limegreen;
+    /* background-color: limegreen */;
 }
 
 header > img{
@@ -35,7 +35,7 @@ header > img{
 /* Nav Bar */
 
 #site_header > nav > ul {
-    list-style: no ne;
+    list-style: none;
 }
 
 nav.main_menu > ul > li {
@@ -52,7 +52,7 @@ nav.main_menu > ul > li > a {
 /* Main */
 
 main{
-    background-color: coral;
+    /* background-color: coral; */
     height: 1000px;
 }
 
@@ -63,7 +63,7 @@ main{
     background-color: cadetblue;
     /* background-image: url(/img/banner.jpg); */
     height: 40%;
-    margin: 1rem 0;
+    margin: 1.5rem 0;
     background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
     url(/img/banner.jpg);
     background-position: center;
@@ -90,17 +90,17 @@ main{
 /* Leadership section */
 
 .leadership_section{
-    background-color: gold;
-    height: 400px;
+    /* background-color: gold; */
+    /* height: 400px; */
 }
 
 /* Sextion title */
 
 .section_title{
     /* height: 80px; */
-    background-color: darkgoldenrod;
-    margin-bottom: 5%;
-    margin-top: 5%;
+    /* background-color: darkgoldenrod; */
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
 }
 
 /* Columns */
@@ -108,17 +108,17 @@ main{
 .col_left, .col_right{
     float: left;
     width: 20%;
-    background-color: darkorange;
+    /* background-color: darkorange; */
     height: 100%;
 }
 
 .col_main {
     float: left;
     width: 50%;
-    background-color: indigo;
+    /* background-color: indigo; */
     height: 100%;
-    margin-left: 5%;
-    margin-right: 5% ;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .col_image{
@@ -143,7 +143,7 @@ h4{
 
 footer{
     margin-top: 1rem;
-    background-color: deeppink;
+    /* background-color: deeppink; */
     height: 80px;
     text-align: center;
 }
