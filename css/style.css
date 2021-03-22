@@ -87,7 +87,7 @@ main{
 
 .hero_textbox div:first-child{
     font-size: 1.5rem;
-    font-weight: 400;
+    /* font-weight: 400; */
 }
 
 .hero_textbox div:last-child{
@@ -106,7 +106,7 @@ main{
 .section_title{
     /* height: 80px; */
     /* background-color: darkgoldenrod; */
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
     margin-top: 1.5rem;
 }
 
@@ -156,19 +156,22 @@ h4{
 }
 
 .text_title  {
-    margin: 1rem 0;
+    margin: 1rem 0 0.5rem 0;
     font-weight: 500;
+    font-size: small;
 }
 
 .text {
     color: gray;
+    font-size: small;
 }
 
 /* Site Footer */
 
 footer{
-    margin-top: 40rem;
-    margin-bottom: 1rem;
+    margin-top: 30rem;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
    /*  background-color: deeppink; */
     /* height: 80px; */
     text-align: center;
